@@ -11,7 +11,8 @@ for i in range(quantidade):
     i += 1
 
 print()
-media = soma / quantidade    
+media = soma / quantidade
+print(f'Foram registrados {i} sálarios')    
 print(f'A média é {media:.2f}')
 print('-' * 40)
 
